@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "image-classification"
+version = "0.1.0"
+description = ""
+authors = ["SassyM <srishti.mishra1225@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+torch = "^2.2.2"
+torchvision = "^0.17.2"
+pandas = "^2.2.2"
+numpy = "^1.26.4"
+matplotlib = "^3.8.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
